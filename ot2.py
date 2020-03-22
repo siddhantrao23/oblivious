@@ -1,5 +1,5 @@
 from Crypto.Cipher import AES
-import hashlib
+import hashlib 
 import random
 import sys
 
@@ -10,7 +10,7 @@ a=random.randint(5, 10)
 
 b=random.randint(10,15)
 
-Alice=(g**a) % n
+Alice=(g**a)  % n
 
 c=1
 if (len(sys.argv)>1):
